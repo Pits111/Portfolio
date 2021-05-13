@@ -1,7 +1,10 @@
-.body {
+
+
+body {
+  background-image: url('/src/images/waves.png');
+  background-repeat: no-repeat;
   text-align: center;
-  background-image: url("/public/waves.png");
-  background-size: cover;
-  background-position: center; 
-  
+  background-color: black; 
+
 }
+
