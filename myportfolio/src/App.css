@@ -1,10 +1,158 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
 body {
-  background-image: url('/src/images/waves.png');
+  background-image: url('/src/images/wave.png');
   background-repeat: no-repeat;
-  text-align: center;
+  background-size: cover;
   background-color: black; 
-
+  color: white;
 }
 
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 376px) {
+	.navbar-items {
+		background: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30px;
+		white-space: nowrap;
+
+	}
+
+	.navbar-logo {
+		justify-self: start;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+
+	.nav-menu {
+		background: none;
+		display: flex;
+    justify-content: space-between;
+		list-style: none;
+		width: 40vw;
+		margin-right: 7rem;
+	}
+
+	a {
+		text-decoration: none;
+		background: none;
+	}
+
+	.nav-links {
+		background: none;
+		letter-spacing: 3px;
+		padding: 0.5rem;
+		text-transform: uppercase;
+		font-weight: 500;
+        list-style: none;
+	}
+
+	.nav-links:hover {
+		color: #4BCDDE;
+	}
+
+	li {
+		background: none;
+		font-family: KoHo;
+		color: white;
+		font-size: 1.3rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-decoration: none;
+    display: inline-flex;
+    padding-top: 50px;
+	}
+
+	.menu-list {
+		background: none;
+		text-decoration: none;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.nav-links-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.navbar-items {
+		background: none;
+		position: relative;
+		padding: 70px;
+		letter-spacing: 3px;
+		text-decoration: none;
+	}
+
+	a {
+		text-decoration: none;
+		background: none;
+	}
+
+
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 40vh;
+		position: absolute;
+		top: 150px;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+
+	.nav-menu.active {
+		
+		background: linear-gradient(90deg, rgba(0,0,0,100) 2%, rgba(58,180,173,100) 100%, rgba(12,200,223,100)2%);;
+		left: 0;
+		opacity: 1.5;
+		transition: all 0.7s ease-out;
+		z-index: 1;
+		padding-top: 50px;
+    padding-bottom: 50px;
+	}
+
+	li {
+		background: none;
+		font-size: 1.4rem;
+		letter-spacing: 5px;
+		color: white;
+		font-weight: 500;
+		padding: 20px;
+	}
+
+	.nav-links {
+		text-align: center;
+		width: 100%;
+		display: table;
+	}
+
+	.menu-icon {
+		text-decoration: none;
+		background: none;
+		color: white;
+		display: block;
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+		transform: translate(-50%, 60%);
+		font-size: 3rem;
+	}
+
+	svg {
+		background: transparent;
+	}
+}

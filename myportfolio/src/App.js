@@ -1,9 +1,11 @@
 import './App.css';
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <p>please show an image!</p>
+      <Navbar/>
     </div>
   );
 }
