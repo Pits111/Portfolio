@@ -1,0 +1,50 @@
+* styling of Intro */
+
+.Intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.intro-text-isa {
+  margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.container-btn{
+  
+}
+
+button {
+  background-color: black;
+  border: 1px solid #CE005B;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-style: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #CE005B;
+  background-color: black;
+
+}
+
+.Avatar{
+    width: 200px;
+}
+
+.maintitle-desktop{
+    margin-bottom: 200px;
+}
+

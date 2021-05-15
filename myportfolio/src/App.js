@@ -1,10 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+
 
 function App() {
+
+  const myStyle={
+  }
+
   return (
     <div className="App">
-      <p>This is the start</p>
+          <Navbar/>
+        <Route exact path="/" component={Intro} />
+        <Route path="/About" />
+        <Route path="/Portfolio" />
+        <Route path="/Contact" />
+   
+      
     </div>
   );
 }
