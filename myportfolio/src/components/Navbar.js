@@ -11,8 +11,8 @@ const Navbar = () => {
 
     const MenuLinks = [
         {
-            title: "About",
-            url: "/About",
+            title: "Home",
+            url: "/Home",
             cName: "nav-links",
         },
     
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar-items">
 				<a href="/">
-					<h1 id="logo"></h1>
+					<h1 id="logo">IsaTech</h1>
 				</a>
 				<div className="menu-icon" onClick={showHide}>
 					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}

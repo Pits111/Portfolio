@@ -60,8 +60,6 @@ const Home = () => {
             </ReadMore>
             </div>
             </animated.div>
-            <Switch>
-            </Switch>
         </div>
     );
 };
