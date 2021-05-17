@@ -35,7 +35,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar-items">
 				<a href="/">
-					<h1 id="logo">IsaTech</h1>
+					<h1 id="logo">Do I need this?</h1>
 				</a>
 				<div className="menu-icon" onClick={showHide}>
 					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
