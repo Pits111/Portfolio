@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
-import "./Contact.css";
+import './Contact.css'; 
+
 
 const Contact = () => {
   function sendEmail(e) {
@@ -28,18 +29,8 @@ const Contact = () => {
   return (
     <div>
       <div className="contact-container">
-        <div className="image-container">
-          <img
-            src="./components/hand.png"
-            alt="imgcontactus"
-            className="contact-image"
-          />
-        </div>
         <div className="form-page">
-          <h1 className="contact-us">CONTACT US</h1>
-          <h2 className="contact-text">
-            Get in touch
-          </h2>
+          <h1 className="contact-us">Get in touch</h1>
           <br></br>
           <form onSubmit={sendEmail}>
             <div className="row pt-5 mx-auto">

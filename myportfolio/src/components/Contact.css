@@ -1,8 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+
+
+
   
   .contact-container {
     display: flex;
@@ -16,11 +14,6 @@
   .image-container {
     display: flex;
     justify-self: center;
-  }
-  
-  .contact-image {
-    justify-content: center;
-    width: 80%;
   }
   
   .form-page {
@@ -40,10 +33,7 @@
     justify-self: center;
     text-align: center;
     text-transform: uppercase;
-    font-family: Oswald;
-    font-weight: bolder;
-    text-shadow: -4px 0 #eedf5b;
-    color: #b95c77;
+    color: white;
     padding: 1rem;
     white-space: nowrap;
   }
@@ -130,7 +120,7 @@
     padding: 2px;
   }
   .button-contact:hover {
-    background-color: #eedf5b;
+    background-color: #4BCDDE;
     box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
     color: white;
     transform: translateY(-7px);
