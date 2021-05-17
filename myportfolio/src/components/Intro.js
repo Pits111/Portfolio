@@ -7,7 +7,7 @@ import './Intro.css';
 
 
 
-const Intro = () => {
+const Home = () => {
     const title = useSpring({
         from: { opacity: 0 },
         to: { opacity: 1 },
@@ -60,10 +60,8 @@ const Intro = () => {
             </ReadMore>
             </div>
             </animated.div>
-            <Switch>
-            </Switch>
         </div>
     );
 };
 
-export default Intro; 
+export default Home; 
