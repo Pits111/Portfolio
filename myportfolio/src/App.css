@@ -4,9 +4,6 @@
 
 
 body {
-  background-image: url('/src/img/wave.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: black; 
   color: white;
   text-align: center;
@@ -55,7 +52,6 @@ body {
 
 	li {
 		background: none;
-		font-family: KoHo;
 		color: white;
 		font-size: 1.3rem;
 		font-weight: 600;
