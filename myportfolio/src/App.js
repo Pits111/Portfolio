@@ -8,6 +8,7 @@ import CardsList from './components/CardsList';
 import cards from './components/CardData'; 
 import SkillsList from './components/SkillsList';
 import skillcards from './components/SkillData';
+import Footer from './components/Footer';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           </Route> 
           <Route path="/Contact" component={Contact}/>
           </Switch>
+          <Footer />
     </div>
   );
 }
