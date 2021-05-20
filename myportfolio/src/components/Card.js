@@ -3,7 +3,6 @@ import './Card.css';
 const Card = ({ title, imgUrl, body}) => {
     return (
         <div className="card-container">
-            <p>My Skills</p>
             <div className="image-container">
                 <img src={imgUrl} alt='picture' />
             </div>
