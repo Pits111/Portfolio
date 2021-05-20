@@ -1,10 +1,11 @@
 import './Card.css';
 
-const Card = ({ title, imageUrl, body}) => {
+const Card = ({ title, imgUrl, body}) => {
     return (
         <div className="card-container">
+            <p>My Skills</p>
             <div className="image-container">
-                <img src={imageUrl} alt='' />
+                <img src={imgUrl} alt='picture' />
             </div>
             <div className="card-content">
                     <div className="cardt-title">

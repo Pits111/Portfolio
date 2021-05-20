@@ -33,7 +33,7 @@ const Home = () => {
     return (
         <div className="Intro">
             <animated.div style={title}>
-                <h1 classname="maintitle-desktop">Hi, I am Curious</h1>
+                <h1 classname="maintitle-desktop">Hi, I am Isa</h1>
                 <br></br>
                 <img 
                 className="avatar" 

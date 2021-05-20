@@ -9,21 +9,24 @@
 
 
 .intro-text-isa {
-  margin-bottom: 10px;
   display: flex;
-  text-align: center;
   align-items: center;
-  
+  justify-content: center; 
+  margin-bottom: 10px;
+
 }
 
 .container-btn{
-  
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
 button {
   background-color: black;
   border: 1px solid #CE005B;
-  width: 20vw;
+  width: 7rem;
   display: flex;
   justify-content: center;
 }
