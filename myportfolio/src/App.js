@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Banner from './components/Banner';
 import Home from './components/Intro';
-import CardsList from './components/BooksList';
+import CardsList from './components/CardsList';
 import cards from './components/PortfolioData'; 
 
 
@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
           <Navbar/>
-          
           <Banner/>
           <Switch>
           <Route path='/Home' component={Home} />

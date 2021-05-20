@@ -1,23 +1,26 @@
+
+
+
 const cards = [
     {
         title: "Tech Skills",
-        imgUrl: "https://thumbs2.imgbox.com/4f/63/aEakTFmS_t.png",
-        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+        imgUrl: "https://i.postimg.cc/nhTxkkvm/DNAHochaufloesung.png",
+        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elit Lorem ipsum dolor sit amet, consetetur sadipscing elit",
     },
     {
         title: "Soft Skills",
-        imgUrl: "https://thumbs2.imgbox.com/4f/63/aEakTFmS_t.png",
-        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+        imgUrl: "https://i.postimg.cc/ZRNKVNYh/AIhochaufloesend.png",
+        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr Lorem ipsum dolor sit amet, consetetur sadipscing elit",
     },
     {
-        title: "Nobody Kills",
-        imgUrl:"https://thumbs2.imgbox.com/4f/63/aEakTFmS_t.png",
-        body:"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
-    },
+        title: "Strategy",
+        imgUrl: "https://i.postimg.cc/bJw9nzqb/Welt-Hochaufloesend.png",
+        body:"Lorem ipsum dolor sit amet, consetetur sadipscing elitr Lorem ipsum dolor sit amet, consetetur sadipscing elit",
+    }, 
     {
-        title: "Everyones Skills",
-        imgUrl: "https://thumbs2.imgbox.com/4f/63/aEakTFmS_t.png",
-        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+        title: "Creativity",
+        imgUrl: "https://i.postimg.cc/02Bdwg4K/Doch-Hochaufloesend.png",
+        body: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr Lorem ipsum dolor sit amet, consetetur sadipscing elit",
     },
   ]
 
