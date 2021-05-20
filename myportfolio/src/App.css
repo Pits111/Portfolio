@@ -94,11 +94,11 @@ body {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		height: 40vh;
+		height: 80vh;
 		position: absolute;
-		top: 150px;
-		left: -100%;
-		opacity: 1;
+		top: 100px;
+		left: -200%;
+		opacity: 0.2;
 		transition: all 0.5s ease;
 	}
 
@@ -106,11 +106,10 @@ body {
 		
 		background: linear-gradient(90deg, rgba(0,0,0,100) 2%, rgba(58,180,173,100) 100%, rgba(12,200,223,100)2%);;
 		left: 0;
-		opacity: 1.5;
+		opacity: 1;
 		transition: all 0.7s ease-out;
 		z-index: 1;
-		padding-top: 50px;
-    padding-bottom: 50px;
+		padding-top: 20px;
 	}
 
 	li {
@@ -119,7 +118,7 @@ body {
 		letter-spacing: 5px;
 		color: white;
 		font-weight: 500;
-		padding: 20px;
+		padding: 50px;
 	}
 
 	.nav-links {
@@ -137,7 +136,7 @@ body {
 		top: 2rem;
 		right: 2rem;
 		transform: translate(-50%, 60%);
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	svg {
