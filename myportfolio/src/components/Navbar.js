@@ -11,14 +11,14 @@ const Navbar = () => {
 
     const MenuLinks = [
         {
-            title: "Home",
-            url: "/Home",
+            title: "Portfolio",
+            url: "/Portfolio",
             cName: "nav-links",
         },
     
         {
-            title: "Portfolio",
-            url: "/Portfolio",
+            title: "Blog",
+            url: "/Blog",
             cName: "nav-links",
         },
     

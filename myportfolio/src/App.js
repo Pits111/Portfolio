@@ -18,8 +18,8 @@ function App() {
           <Navbar/>
           <Banner/>
           <Switch>
-          <Route path='/Home' component={Home} />
-          <Route path="/Portfolio">
+          <Route exact path='/' component={Home} />
+          <Route path="/Blog">
           <CardsList cardsInfo={cards} />
           </Route> 
           <Route path="/Contact" component={Contact}/>
