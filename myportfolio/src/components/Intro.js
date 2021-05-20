@@ -1,8 +1,8 @@
 import ReadMore from "./ReadMore";
 import Typography from "@material-ui/core/Typography";
 import { useSpring, animated } from "react-spring";
-import { Switch, Unstable_TrapFocus } from '@material-ui/core';
 import './Intro.css'; 
+import Avatar from './../img/Avatar.svg';
 
 
 
@@ -35,12 +35,10 @@ const Home = () => {
             <animated.div style={title}>
                 <h1 classname="maintitle-desktop">Hi, I am Curious</h1>
                 <br></br>
-                <img
-                    src="https://thumbs2.imgbox.com/be/df/rnjnBtOn_t.png"
-                    alt="Avatar"
-                    className="Avatar"
-                >
-                </img>
+                <img 
+                className="avatar" 
+                src={Avatar} 
+                alt="avatar"/>
             </animated.div>
             <br></br>
             <animated.div style={text}>
