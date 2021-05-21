@@ -1,4 +1,6 @@
 import './Card.css';
+import { Link } from 'react-router-dom';
+
 
 const Card = ({ title, imgUrl, body}) => {
     return (
@@ -13,13 +15,14 @@ const Card = ({ title, imgUrl, body}) => {
                     <div className="card-body">
                         <p>{body}</p>
                     </div>
-
                     <div className="btn">
+                        <Link to = {`/blog/${title}`}>
                         <button>
                             <a>
                                 View More
                             </a>
                         </button>
+                        </Link>
                 </div>
             </div>
         </div>

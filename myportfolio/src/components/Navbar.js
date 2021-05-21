@@ -34,9 +34,11 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar-items">
+				<div className="logo-container">
 				<a href="/">
-					<h1 id="logo">LOGO</h1>
+					<h1 id="logo">|IM|</h1>
 				</a>
+				</div>
 				<div className="menu-icon" onClick={showHide}>
 					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
 				</div>
