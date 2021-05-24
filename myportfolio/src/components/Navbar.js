@@ -36,7 +36,7 @@ const Navbar = () => {
             <nav className="navbar-items">
 				<div className="logo-container">
 				<a href="/">
-					<h1 id="logo">|IM|</h1>
+					<h1 className="logo">|IM|</h1>
 				</a>
 				</div>
 				<div className="menu-icon" onClick={showHide}>

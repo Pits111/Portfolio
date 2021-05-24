@@ -81,9 +81,15 @@ body {
 		margin-top: 30px;
 	}
 
-	#logo{ 
+	.logo{ 
 		font-size: 60px;
 		color: #CE005B; 
+		transition: all 0.8s ease 0s
+	}
+
+	.logo:hover{
+		transform: translateY(-7px);
+		font-size: 5rem;
 	}
 }
 

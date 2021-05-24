@@ -7,13 +7,10 @@
     padding-left: 1rem;
 }
 
-.linkedin{
+
+.linkedin {
     max-width: 5vh;
     margin: 10px;
-}
-
-.linkedin img:hover{
-    transform: scale(1.25);
 }
 
 .github{
