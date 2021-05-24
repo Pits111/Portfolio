@@ -28,11 +28,11 @@
 button {
   background-color: black;
   border: 1px solid #CE005B;
-  width: 4rem;
+  width: 5rem;
   margin: 2rem;
   display: flex;
   justify-content: center;
-  
+  cursor: pointer;
 }
 
 .intro-btn {
@@ -44,9 +44,9 @@ button {
   padding-right: 20px;
   color: white;
   background-color: black;
-  
-
 }
+
+
 
 .avatar{
   width: 300px;
