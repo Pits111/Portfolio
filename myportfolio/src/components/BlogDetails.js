@@ -34,7 +34,8 @@ const BlogDetails = ({ routeProps }) => {
 
     return (
         <div>
-           <p>Test Test</p>
+           <h3>Sorry! Page Under Construction</h3>
+           <p>Content Coming Soon...</p>
         </div>
     );
 };
