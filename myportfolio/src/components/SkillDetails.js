@@ -1,5 +1,3 @@
-import ReactPlayer from 'react-player'; 
-import { Document, Page } from "react-pdf"
 import { Link } from 'react-router-dom';
 import './Skill.css';
 
