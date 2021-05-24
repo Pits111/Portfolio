@@ -22,13 +22,16 @@ function App() {
           <Banner/>
            <Switch>
              <Route exact path='/' component={Home} />
-             <Route path='/portfolio/:skillcategory' render={(routeProps) => <SkillDetails routeProps={routeProps} /> } />
+
+             <Route path ='/portfolio/:skilltitle' render={(routeProps) => <SkillDetails routeProps={routeProps} /> }/>
              <Route path="/portfolio">
-               <SkillsList skillsInfo={skillcards}/>
+                <SkillsList skillsInfo={skillcards}/>
              </Route>
-             <Route path='/blog/:blogtitle' render={(routeProps) => <BlogDetails routeProp={routeProps} /> }/>
+             
+
+             <Route path='/blog/:blogtitle' render={(routeProps) => <BlogDetails routeProps={routeProps} /> }/>
              <Route path="/blog">
-               <CardsList cardsInfo={cards} />
+                <CardsList cardsInfo={cards} />
              </Route> 
              <Route path="/contact" component={Contact}/>
            </Switch>

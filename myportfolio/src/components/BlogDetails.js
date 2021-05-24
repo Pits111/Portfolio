@@ -1,19 +1,40 @@
 
 const BlogDetails = ({ routeProps }) => {
+        console.log(routeProps);
 
-    const BlogInfo = [
+    const blogContent = [
         {
-        title: "loremipsum",
-        info: "some text here",
-        links: "for more information go here",
-        placehoder: " I do not know what else",
-        id: "2", 
-        }
+            title: "Research",
+            text: "Lorem Ipsum",
+            source: "Link",
+            id: 1,
+        },
+        {
+            title: "Artificial Intelligence",
+            text: "Lorem Ipsum",
+            source: "Link",
+            id: 2,
+        },
+        {
+            title: "Technology",
+            text: "Lorem Ipsum",
+            source: "Link",
+            id: 3,
+        },
+        {
+            title: "Digital Health",
+            text: "Lorem Ipsum",
+            source: "Link",
+            id: 4, 
+        },
     ]
+
+    const foundMatch = blogContent.find((blogCategory) => blogCategory.title === routeProps.match.params.blogtitle)
+        console.log(foundMatch);
 
     return (
         <div>
-            <p>How do I map here over the new array and show only one element?</p>
+           <p>Test Test</p>
         </div>
     );
 };

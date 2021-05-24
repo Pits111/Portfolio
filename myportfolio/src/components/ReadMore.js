@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 import "./Intro.css"; 
 
 

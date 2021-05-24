@@ -2,21 +2,21 @@ import './Card.css';
 import { Link } from 'react-router-dom';
 
 
-const Skill = ({ heading, image, text }) => {
+const Skill = ({ title, imgUrl, body }) => {
     return (
         <div className="card-container">
             <div className="image-container">
-                <img src={image} alt='picture' />
+                <img src={imgUrl} alt='picture' />
             </div>
             <div className="card-content">
                     <div className="cardt-title">
-                        <h3>{heading}</h3>
+                        <h3>{title}</h3>
                     </div>
                     <div className="card-body">
-                        <p>{text}</p>
+                        <p>{body}</p>
                     </div>
                     <div className="btn">
-                        <Link to = {`/skills/${heading}`}>
+                        <Link to = {`/portfolio/${title}`}>
                         <button>
                             <a>
                                 View More
