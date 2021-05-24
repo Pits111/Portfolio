@@ -34,9 +34,7 @@ const BlogDetails = ({ routeProps }) => {
 
     return (
         <div>
-            <p>{foundMatch.title}</p>
-            <p>{foundMatch.text}</p>
-            <p>{foundMatch.source}</p>
+           <p>Test Test</p>
         </div>
     );
 };
