@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
 
 body {
   background-color: black; 
@@ -7,6 +8,7 @@ body {
   text-align: center;
   height: 100vh;
   margin: 0;
+  font-family: Princes Sofia;
 }
 
 /* Styling for Menu */ 
@@ -17,7 +19,6 @@ body {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-right: 30px;
 		height: 15vh;
 	}
 
@@ -44,6 +45,9 @@ body {
 		font-weight: 500;
         list-style: none;
 		font-size: 1.5rem;
+		border-radius: 3px;
+		padding: 20px;
+
 	}
 
 	.nav-links:hover {
@@ -91,6 +95,8 @@ body {
 	.logo:hover{
 		transform: translateY(-7px);
 		font-size: 5rem;
+		border-radius: 3px;
+
 	}
 }
 

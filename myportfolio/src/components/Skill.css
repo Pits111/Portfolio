@@ -54,7 +54,7 @@ p{
 }
 
 .skill-btn button{
-    background-color: none;
+    background-color: black;
     border: none;
     transition: 0.2s;
     margin-top: 0.5rem;
