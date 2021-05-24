@@ -1,6 +1,4 @@
 
-
-
 const cards = [
     {
         title: "Research",
