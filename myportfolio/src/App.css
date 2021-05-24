@@ -11,7 +11,7 @@ body {
 
 /* Styling for Menu */ 
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 375px) {
 	.navbar-items {
 		background: none;
 		display: flex;
@@ -39,10 +39,11 @@ body {
 	.nav-links {
 		background: none;
 		letter-spacing: 3px;
-		padding: 0.5rem;
+		padding: 2.5rem;
 		text-transform: uppercase;
 		font-weight: 500;
         list-style: none;
+		font-size: 1.5rem;
 	}
 
 	.nav-links:hover {
@@ -94,10 +95,15 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+	.logo{
+		margin-top: 150px;
+	}
+	
+	
 	.navbar-items {
 		background: none;
 		position: relative;
-		height: 70px;
+		height: 3rem;
 		letter-spacing: 3px;
 		text-decoration: none;
 	}
@@ -105,6 +111,8 @@ body {
 	a {
 		text-decoration: none;
 		background: none;
+		padding: 0px;
+		margin: 0px;
 	}
 
 
@@ -112,22 +120,24 @@ body {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		height: 80vh;
+		height: 50vh;
 		position: absolute;
 		top: 100px;
 		left: -200%;
 		opacity: 0.2;
 		transition: all 0.5s ease;
+		padding: 0px;
+		margin: 0px;
 	}
 
 	.nav-menu.active {
-		
 		background: linear-gradient(90deg, rgba(0,0,0,100) 2%, rgba(58,180,173,100) 100%, rgba(12,200,223,100)2%);;
 		left: 0;
 		opacity: 1;
 		transition: all 0.7s ease-out;
 		z-index: 1;
-		padding-top: 20px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	li {
@@ -136,13 +146,16 @@ body {
 		letter-spacing: 5px;
 		color: white;
 		font-weight: 500;
-		padding: 50px;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin: 0;
 	}
 
 	.nav-links {
 		text-align: center;
 		width: 100%;
 		display: table;
+		margin:0px;
 	}
 
 	.menu-icon {
@@ -151,10 +164,10 @@ body {
 		color: white;
 		display: block;
 		position: absolute;
-		top: 2rem;
+		top: 1rem;
 		right: 2rem;
 		transform: translate(-50%, 60%);
-		font-size: 2rem;
+		font-size: 4rem;
 	}
 
 	svg {
