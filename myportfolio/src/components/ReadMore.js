@@ -16,7 +16,7 @@ function ReadMore({ children }) {
     const classes = useStyles();
     const [isHidden, setIsHidden] = useState(true);
     return (
-        <div className="container-btn">
+        <div className="intro-btn">
             <div className={isHidden ? classes.hidden : null}>{children}</div>
             <button onClick={() => setIsHidden(!isHidden)}>
                 {isHidden ? (
