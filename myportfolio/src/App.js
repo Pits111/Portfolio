@@ -22,7 +22,6 @@ function App() {
           <Banner/>
            <Switch>
              <Route exact path='/' component={Home} />
-
              <Route path ='/portfolio/:skilltitle' render={(routeProps) => <SkillDetails routeProps={routeProps} /> }/>
              <Route path="/portfolio">
                 <SkillsList skillsInfo={skillcards}/>
