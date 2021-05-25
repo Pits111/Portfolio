@@ -4,7 +4,8 @@ import { useSpring, animated } from "react-spring";
 import './Intro.css'; 
 import Avatar from './../img/Avatar.svg';
 import Agile from "./Agile";
-
+import './Agile.css'; 
+import Banner from './Banner';
 
 
 
@@ -59,22 +60,56 @@ const Home = () => {
             </ReadMore>
             </div>
             </animated.div>
-            <Agile 
-            title="What is your return?" 
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
-            <Agile 
-            title="What is your return?" 
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
-            <Agile 
-            title="What is your return?" 
-            content="
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </br>
-            " />
+           <Banner />
+              <div className="agile-frame">
+                  <h1 id="agile-heading">Working Agile in 4.0</h1>
+                  <div className="agile_wrapper_one">
+                    <img 
+                      className="team-img" 
+                      src="https://i.postimg.cc/Kjtc7V3x/TEAM.png"
+                      alt="Teamwork"/> 
+                    <Agile 
+                      title="Working Agile in 4.0" 
+                      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
+                  </div>
+                  <div className="agile_wrapper_two">
+                    <img 
+                      className="team-img" 
+                      src="https://i.postimg.cc/GtVVXhYy/clock.png"
+                      alt="Teamwork"/> 
+                    <Agile 
+                      title="Agile vs Waterfall" 
+                      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
+                  </div>
+                  <div className ="agile_wrapper_three">
+                    <img 
+                      className="team-img" 
+                      src="https://i.postimg.cc/hvDTN98F/shutterstock-1110532412.png"
+                      alt="Teamwork"/>
+                    <Agile 
+                      title="Scrum or Canban" 
+                      content="
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        "/>
+                  </div>
+                  <div className="agile_wrapper_four">
+                    <img 
+                      className="team-img" 
+                      src="https://i.postimg.cc/VkZwt1ZX/shutterstock-1240181551.png"
+                      alt="Teamwork"/>
+                    <Agile 
+                      title="Agile Mindest" 
+                      content="
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </br>
+                        "/>
+                    </div>
+              </div>
         </div>
-    );
+  );
 };
 
 export default Home; 
