@@ -39,9 +39,6 @@ const Agile = (props) => {
                             className="accordion__text"
                             dangerouslySetInnerHTML = {{ __html: props.content }} 
                         />
-                        <div className="agile-img-container">
-                            <p> this could be an image div</p>
-                        </div>
                     </div>
                 </div>
     );
