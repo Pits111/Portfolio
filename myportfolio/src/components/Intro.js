@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import { useSpring, animated } from "react-spring";
 import './Intro.css'; 
 import Avatar from './../img/Avatar.svg';
+import Agile from "./Agile";
 
 
 
@@ -58,6 +59,20 @@ const Home = () => {
             </ReadMore>
             </div>
             </animated.div>
+            <Agile 
+            title="What is your return?" 
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
+            <Agile 
+            title="What is your return?" 
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />
+            <Agile 
+            title="What is your return?" 
+            content="
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </br>
+            " />
         </div>
     );
 };

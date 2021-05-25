@@ -7,18 +7,26 @@
     padding-left: 1rem;
 }
 
-.linkedin{
+
+.linkedin {
     max-width: 5vh;
     margin: 10px;
+    transition: all 0.5s ease 0s;
 }
 
-.linkedin img:hover{
-    transform: scale(1.25);
+.linkedin:hover{
+    transform: translateY(-10px);
 }
 
 .github{
     display: flex;
     max-width: 7vh;
     padding-left: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.github:hover{
+    transform: translateY(-10px);
+
 }
 

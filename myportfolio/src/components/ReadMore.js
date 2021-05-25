@@ -18,7 +18,7 @@ function ReadMore({ children }) {
     return (
         <div className="intro-btn">
             <div className={isHidden ? classes.hidden : null}>{children}</div>
-            <button onClick={() => setIsHidden(!isHidden)}>
+            <button id="more-btn" onClick={() => setIsHidden(!isHidden)}>
                 {isHidden ? (
                     <p className="intro-btn">⬇ Show More</p>
                 ) : (

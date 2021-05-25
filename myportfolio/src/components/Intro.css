@@ -23,30 +23,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; 
-}
+  transition: all 0.5s ease 0s;
 
-button {
-  background-color: black;
-  border: 1px solid #CE005B;
-  width: 5rem;
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
 }
 
 .intro-btn {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 15px;
-  font-style: bold;
+  font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
   color: white;
   background-color: black;
+
 }
 
+#more-btn {
+  background-color: black;
+  border:  2px solid #CE005B;
+  width: 14rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
 
+#more-btn:hover{
+  transform: translateY(-10px);
+  color: black;
+}
 
 .avatar{
   width: 300px;

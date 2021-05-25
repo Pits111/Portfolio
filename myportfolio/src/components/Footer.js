@@ -5,7 +5,7 @@ import GitHub from './../img/GitHub.svg';
 const Footer = () => {
   return (
     <div className="footer-container">
-        <a href="https://github.com/Pits111">
+        <a href="https://github.com/Pits111/portfolio">
          <img 
           className="github" 
           src={GitHub} 
