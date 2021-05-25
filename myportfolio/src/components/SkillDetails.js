@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Skill.css';
 
 
-const SkillDetails = ({ routeProps, title }) => {
+const SkillDetails = ({ routeProps }) => {
     console.log(routeProps);
     
     const skillContent = [

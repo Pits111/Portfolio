@@ -1,9 +1,11 @@
 import { useState, useRef } from "react";
 import Chevron from './Chevron';
 import './Agile.css';
+import './AgileImgs'; 
 
 
 const Agile = (props) => {
+
 
     const [setActive, setActiveState] = useState("");
     const [setHeight, setHeightState] = useState("0px");
@@ -25,21 +27,23 @@ const Agile = (props) => {
 
     return (
         <div className="accordion__section">
-            <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-                <p className="accordion__title">{props.title}</p>
-                <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
-            </button>
-            <div 
-                ref={content} 
-                style={{ maxHeight: `${setHeight}`}} 
-                className="accordion__content"
-                >
-                <div 
-                    className="accordion__text"
-                    dangerouslySetInnerHTML = {{ __html: props.content }} 
-                />
-            </div>
-        </div>
+                <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+                    <p className="accordion__title">{props.title}</p>
+                    <Chevron className={`${setRotate}`} width={15} fill={"#777"} />
+                </button>
+                    <div 
+                        ref={content} 
+                        style={{ maxHeight: `${setHeight}`}} 
+                        className="accordion__content">
+                        <div 
+                            className="accordion__text"
+                            dangerouslySetInnerHTML = {{ __html: props.content }} 
+                        />
+                        <div className="agile-img-container">
+                            <p> this could be an image div</p>
+                        </div>
+                    </div>
+                </div>
     );
 
 };
