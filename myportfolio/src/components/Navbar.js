@@ -3,8 +3,7 @@ import { useState } from 'react';
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
-
-
+import './Navbar.css';
 
 
 const Navbar = () => {
