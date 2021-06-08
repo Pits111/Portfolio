@@ -8,14 +8,16 @@ const SkillDetails = ({ routeProps }) => {
     const skillContent = [
         {
             title: "Tech Skills",
-            subone: "Between Java Script and React",
-            paraone: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
-            subtwo: "New title",
-            paratwo: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
-            subthree: "To See More About > WILD CODE SCHOOL < click on the image below ",
+            subone: "Between {Java Script} And Debugging ",
+            paraone: "To be honest, I never thought that I would learn how to code one day. So it is no coincidence that my GitHup Name is -Pits- which stands for Pie in the sky. Nonetheless, here I am. Pariticpating in a full time bootcamp from the Wild Code School and hammering Java Script (JS), React, Express and SQL every day and night in my head. My facit: I am not a good programmer. I miss curley braces, forget semicolons and accidently switch letters. So half the time I spent with debugging. However, once I fixed all my bugs and the code works, it is the most amazing feeling that I can not describe in words. That is until I import a new library and nothing works again. So I start over.  ",
+            subtwo: "Managing The Workflow",
+            paratwo: "In  my last job I worked as a project manger and it took me a while to understand, why not every wish I had was possible to realise. Especially not in the given time. Wearing now the shoes of a programmer, I have a better insight on how to manage workflows. Using collaboration and management tools such as GitHub and Jira, writing clear and precise user stories and beeing able to draw mock ups, are very useful in speeding up the process to visualise ideas, communicate milestones and track the overall progress. And of course the bugs as well. I do not want to miss on those tools ever again.",
+            subthree: "Best Practice",
+            parathree: "All my coding projects and the one's that I have participated in, can be found on my gitHub account. This also includes this website. My newest project that I am currently working on, whithin the Wild Code School, is a responsive web application for a fintech startup in Spain, called WWH. The core of WWH is a Customer Data Platform (CDP) that is built on top of NoSQL database. In a team of four, we work on the frontend and backend. As a scrum team we are self-organizing and take turns with regard to the scrum roles. The aim is to create an MVP where bank customers can view their personal banking behavior and payment patterns. This kind of data analytics is possible due to the european Revised Payment Services Directive (PSD2), that basically allows third parties to access bank infrastructures and thereby create a new line of business.",
+            subfour: "If you want to know more about < WWH > click on the image below",
             imgone: "https://i.postimg.cc/dtntBqs0/Tech-Stack-Hochaufloesung.png",
-            imgtwo: "https://i.postimg.cc/4ycvf02G/WCS.png",
-            Link: "https://www.youtube.com/watch?v=AD-IUNA4YZw",
+            imgtwo: "https://i.postimg.cc/hGTSjXFY/wwh.png",
+            Link: "https://whenwhyhow.tech/product.html",
             id: 5,
         },
         {
@@ -24,7 +26,7 @@ const SkillDetails = ({ routeProps }) => {
             paraone: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
             subtwo: "New title",
             paratwo: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
-            subthree: "To see more about KIBALOU click on the image below",
+            subfour: "To see more about KIBALOU click on the image below",
             imgone: "https://i.postimg.cc/jdgjVSzW/Soft-Skills-Hochaufloesung.png",
             imgtwo: "https://i.postimg.cc/6Ts7M50J/Kibalou.png",
             Link: "https://battyrabbit.com/portfolio/kibalou/",
@@ -36,7 +38,7 @@ const SkillDetails = ({ routeProps }) => {
             paraone: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
             subtwo: "newtitle",
             paratwo: "Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI.Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
-            subthree: "To read the WHITEPAPER click on the image below",
+            subfour: "To read the WHITEPAPER click on the image below",
             imgone: "https://i.postimg.cc/rshqLft6/Chess-Hochaufloesung.png",
             imgtwo: "https://i.postimg.cc/hv8J3R3X/TKCover.png",
             Link: "https://www.tk.de/resource/blob/2057560/79350ea011f613307781908115772d6c/position-digitale-gesundheit-data.pdf",
@@ -49,7 +51,7 @@ const SkillDetails = ({ routeProps }) => {
             paraone: "Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
             subtwo: "New title",
             paratwo: "Business executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AIBusiness executives have notoriously struggled to assess the business value of AI. They understand the potential value of it, but the general lack of institutional AI knowledge has made the evaluation process rather uncertain.",
-            subthree: "To see the AI-Video click on the image below.",
+            subfour: "To see the AI-Video click on the image below.",
             imgone: "https://i.postimg.cc/8kdFYGKW/Ligth-Bulb-Hochaufloesung.png",
             imgtwo: "https://i.postimg.cc/DZHdKhg5/TKVideo-Two.png",
             Link: "https://www.youtube.com/watch?v=VIr0YKX5Fbk",
@@ -80,8 +82,15 @@ const SkillDetails = ({ routeProps }) => {
                     <div className="skill-textwo">
                         <p>{foundMatch.paratwo}</p>
                     </div>
-                    <div className="skill-subthree">
-                        <h3>{foundMatch.subthree}</h3>
+                    <div className="skill-subtitle">
+                        <h2>{foundMatch.subthree}</h2>
+                    </div>
+                    <div className="skill-textthree">
+                        <p>{foundMatch.parathree}</p>
+                    </div>
+
+                    <div className="skill-subtitle">
+                        <h3>{foundMatch.subfour}</h3>
                     </div>
                     <div className="imgtwo-container">
                         <a href={foundMatch.Link}>

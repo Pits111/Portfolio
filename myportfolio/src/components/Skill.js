@@ -19,7 +19,7 @@ const Skill = ({ title, imgUrl, body }) => {
                         <Link to = {`/portfolio/${title}`}>
                         <button>
                             <a>
-                                View More
+                                View Project
                             </a>
                         </button>
                         </Link>
