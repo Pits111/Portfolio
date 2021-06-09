@@ -55,7 +55,7 @@ p{
 }
 
 .btn button:hover{
-    background: #CE005B;
+    background-color: #CE005B;
     transform: scla(1.)
 }
 
