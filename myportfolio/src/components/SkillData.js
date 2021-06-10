@@ -12,7 +12,7 @@ const skillcards = [
     {
         title: "Strategy",
         imgUrl: "https://i.postimg.cc/rshqLft6/Chess-Hochaufloesung.png",
-        body:"A good strategy with a clear vision and goals in mind, is necessary to achieve progress. Having worked as a policy advisor I know how put strategy into practice.   ",
+        body:"A good strategy with a clear roadmap, lays the foundation for progress. Having worked as a policy advisor, I know how put strategy into practice.",
     }, 
     {
         title: "Creativity",
