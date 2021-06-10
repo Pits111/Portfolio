@@ -2,17 +2,17 @@ const skillcards = [
     {
         title: "Tech Skills",
         imgUrl: "https://i.postimg.cc/dtntBqs0/Tech-Stack-Hochaufloesung.png",
-        body: "Starting with UX/UI to frontend development with HTML, CSS, Java Script and React. Backend includes Express, MySQL and NoSQL. ",
+        body: " I am proficient in UX and UI. In the frontend my skills include HTML, CSS, Java Script and React. Backend includes Express and SQL. ",
     },
     {
         title: "Soft Skills",
         imgUrl: "https://i.postimg.cc/jdgjVSzW/Soft-Skills-Hochaufloesung.png",
-        body: "Teamwork is the key to success. Certified as a Product Owner and Scrum Master I live and facilitate the agile mindset of the scrum framework. ",
+        body: "Teamwork is the key to success. Certified as a Product Owner and Scrum Master I live and facilitate the agile mindset of the Scrum Framework. ",
     },
     {
         title: "Strategy",
         imgUrl: "https://i.postimg.cc/rshqLft6/Chess-Hochaufloesung.png",
-        body:"A good strategy with clear visions and goals is necessary for progress. Working as a policy advisor I know how put strategy into practice.   ",
+        body:"A good strategy with a clear vision and goals in mind, is necessary to achieve progress. Having worked as a policy advisor I know how put strategy into practice.   ",
     }, 
     {
         title: "Creativity",
