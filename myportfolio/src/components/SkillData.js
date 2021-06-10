@@ -7,7 +7,7 @@ const skillcards = [
     {
         title: "Soft Skills",
         imgUrl: "https://i.postimg.cc/jdgjVSzW/Soft-Skills-Hochaufloesung.png",
-        body: "Teamwork is the key to success. Certified as a Product Owner and Scrum Master I live and facilitate the agile mindset of the scrum framework. ",
+        body: "Teamwork is the key to success. Certified as a Product Owner and Scrum Master I live and facilitate the agile mindset of the Scrum Framework. ",
     },
     {
         title: "Strategy",
