@@ -50,11 +50,11 @@ const Home = () => {
                 <Typography className="intro-isa">
                 Welcome to my website! You found your <br/>
                 way here which means, you are looking for something specific. If you are interested in my professional background and specifically the projects I have been working on, feel free to checkout the
-                 <span className="letter_color"> Portfolio </span> section. If you are a tech-lover and care about valuable innovations as much as I do, 
-                look around in the <span className="letter_color">Blog</span> section. In case you want to know more about 
-                 <span className="letter_color"> Agile Frameworks </span> such as Scrum or Canban or inform yourself about Working-Out-Loud circles, 
+                 <span className="letter_color"> portfolio </span> section. If you are a tech-lover and care about valuable innovations as much as I do, 
+                look around in the <span className="letter_color">blog</span> section. In case you want to know more about 
+                 <span className="letter_color"> agile frameworks </span> such as Scrum or Canban or inform yourself about Working-Out-Loud circles, 
                  scroll down and dive into the topic
-                of <span className="letter_color">New Work</span>.<br/>
+                of <span className="letter_color">new work</span>.<br/>
                 <br/>
 
                 Having worked as an IT project manager, product owner, policy advisor and even creative producer, I have gained a bunch of
@@ -62,7 +62,7 @@ const Home = () => {
                 my portfolio and thoughts on valuable innovations, this site is my personal sandbox project to exercise JSX and React. <br/>
               
                 <br/>
-                In any case, enjoy your journey and do not hesitate to <span className="letter_color"> Contact Me </span> if you have questions.   
+                In any case, enjoy your journey and do not hesitate to <span className="letter_color"> contact me </span> if you have questions.   
                 <br/>
                 </Typography>
             </ReadMore>

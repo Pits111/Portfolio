@@ -12,12 +12,12 @@ const skillcards = [
     {
         title: "Strategy",
         imgUrl: "https://i.postimg.cc/rshqLft6/Chess-Hochaufloesung.png",
-        body:"A good strategy with a clear roadmap, lays the foundation for progress. Having worked as a policy advisor, I know how put strategy into practice.",
+        body:"A good strategy with a clear roadmap, lays the foundation for progress. Having worked as a policy advisor, I know how to put strategy into practice.",
     }, 
     {
         title: "Creativity",
         imgUrl: "https://i.postimg.cc/8kdFYGKW/Ligth-Bulb-Hochaufloesung.png",
-        body: "Nothing is more powerful than a good idea. Having slipped into many different roles I always come up with new ideas and solutions. ",
+        body: "Nothing is more powerful than a good idea. I always seek for new experiences and impulses to think outside the box and come up with creative solutions.   ",
     },
   ]
 
