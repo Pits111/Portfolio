@@ -59,7 +59,7 @@ const Home = () => {
 
                 Having worked as an IT project manager, product owner, policy advisor and even creative producer, I have gained a bunch of
                 tech and soft-skills throughout the years. Currently, I am evolving my web development skills. So besides displaying
-                my portfolio and thoughts on valuable innovations, this site is my personal sandbox project to exercise JSX and React. <br/>
+                my portfolio and thoughts on valuable innovations, this site is my personal ongoing sandbox project to exercise Java Script and React. <br/>
               
                 <br/>
                 In any case, enjoy your journey and do not hesitate to <span className="letter_color"> contact me </span> if you have questions.   

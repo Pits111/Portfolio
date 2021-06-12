@@ -1,7 +1,6 @@
 import emailjs from "emailjs-com";
 import './Contact.css'; 
 
-
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
