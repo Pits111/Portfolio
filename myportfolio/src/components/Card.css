@@ -59,7 +59,9 @@ p{
     transform: scla(1.)
 }
 
-a{
+.go-back-btn
+.view-project-btn,
+.view-more{
     text-transform: uppercase;
     color: #4BCDDE;
     text-decoration: none;

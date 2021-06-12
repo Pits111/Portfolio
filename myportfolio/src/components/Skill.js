@@ -6,7 +6,7 @@ const Skill = ({ title, imgUrl, body }) => {
     return (
         <div className="card-container">
             <div className="image-container">
-                <img src={imgUrl} alt='picture' />
+                <img src={imgUrl} alt='XY' />
             </div>
             <div className="card-content">
                     <div className="cardt-title">
@@ -17,10 +17,8 @@ const Skill = ({ title, imgUrl, body }) => {
                     </div>
                     <div className="btn">
                         <Link to = {`/portfolio/${title}`}>
-                        <button>
-                            <a>
+                        <button className="view-project-btn">
                                 View Project
-                            </a>
                         </button>
                         </Link>
                 </div>
