@@ -7,6 +7,7 @@ import Agile from "./Agile";
 import './Agile.css'; 
 import Banner from './Banner';
 import './Banner.css';
+import Slider from "./Slider";
 
 
 
@@ -69,6 +70,7 @@ const Home = () => {
             </div>
             </animated.div>
             <Banner />
+            <Slider /> 
               <div className="agile-frame">
                   <h1 id="agile-heading">Working Agile in 4.0</h1>
                   <div className="agile_wrapper_one">

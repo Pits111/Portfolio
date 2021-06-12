@@ -67,7 +67,7 @@ const SkillDetails = ({ routeProps }) => {
         <div className="skill-frame">
         <div className="skill-container">
                 <div className="imgone-container">
-                    <img src={foundMatch.imgone} alt='picture' />
+                    <img src={foundMatch.imgone} alt='XY' />
                 </div>
                 <div className="skill-content">
                     <div className="skill-subtitle">
@@ -94,14 +94,14 @@ const SkillDetails = ({ routeProps }) => {
                     </div>
                     <div className="imgtwo-container">
                         <a href={foundMatch.Link}>
-                         <img src={foundMatch.imgtwo} alt='picture' />
+                         <img src={foundMatch.imgtwo} alt='XY' />
                         </a>
                     </div>
                    
                     <div className="skill-btn">
                         <Link to = {`/portfolio`}>
-                        <button>
-                            <a>Go back</a>
+                        <button className="go-back-btn">
+                            Go back
                         </button>
                         </Link>
                        

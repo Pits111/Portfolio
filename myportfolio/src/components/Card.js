@@ -6,7 +6,7 @@ const Card = ({ title, imgUrl, body}) => {
     return (
         <div className="card-container">
             <div className="image-container">
-                <img src={imgUrl} alt='picture' />
+                <img src={imgUrl} alt='XY' />
             </div>
             <div className="card-content">
                     <div className="cardt-title">
@@ -17,10 +17,8 @@ const Card = ({ title, imgUrl, body}) => {
                     </div>
                     <div className="btn">
                         <Link to = {`/blog/${title}`}>
-                        <button>
-                            <a>
+                        <button className="view-more">
                                 View More
-                            </a>
                         </button>
                         </Link>
                 </div>
