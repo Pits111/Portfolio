@@ -49,22 +49,24 @@ const Home = () => {
             <div className="intro-text-isa">
             <ReadMore>
                 <Typography className="intro-isa">
-                Welcome to my website! You found your <br/>
-                way here which means, you are looking for something specific. If you are interested in my professional background and specifically the projects I have been working on, feel free to checkout the
-                 <span className="letter_color"> portfolio </span> section. If you are a tech-lover and care about valuable innovations as much as I do, 
-                look around in the <span className="letter_color">blog</span> section. In case you want to know more about 
-                 <span className="letter_color"> agile frameworks </span> such as Scrum or Canban or inform yourself about Working-Out-Loud circles, 
-                 scroll down and dive into the topic
-                of <span className="letter_color">new work</span>.<br/>
-                <br/>
+                <h4>
+                    Welcome to my website! <br/>
+                    You found your way here which means, you are looking for something specific. If you are interested in my professional background and specifically the projects I have been working on, feel free to checkout the
+                    <span className="letter_color"> portfolio </span> section. If you are a tech-lover and care about valuable innovations as much as I do, 
+                    look around in the <span className="letter_color">blog</span> section. In case you want to know more about 
+                    <span className="letter_color"> agile frameworks </span> such as Scrum or Canban or inform yourself about Working-Out-Loud circles, 
+                    scroll down and dive into the topic
+                    of <span className="letter_color">new work</span>.<br/>
+                    <br/>
 
-                Having worked as an IT project manager, product owner, policy advisor and even creative producer, I have gained a bunch of
-                tech and soft-skills throughout the years. Currently, I am evolving my web development skills. So besides displaying
-                my portfolio and thoughts on valuable innovations, this site is my personal ongoing sandbox project to exercise Java Script and React. <br/>
+                    Having worked as an IT project manager, product owner, policy advisor and even creative producer, I have gained a bunch of
+                    tech and soft-skills throughout the years. Currently, I am evolving my web development skills. So besides displaying
+                    my portfolio and thoughts on valuable innovations, this site is my personal ongoing sandbox project to exercise Java Script and React. <br/>
               
-                <br/>
-                In any case, enjoy your journey and do not hesitate to <span className="letter_color"> contact me </span> if you have questions.   
-                <br/>
+                    <br/>
+                    In any case, enjoy your journey and do not hesitate to <span className="letter_color"> contact me </span> if you have questions.   
+                    <br/>
+                  </h4>
                 </Typography>
             </ReadMore>
             </div>
