@@ -16,6 +16,7 @@
     overflow: hidden;
     height: 200px; 
     margin-bottom: 0.5rem;
+    display: flex;
 }
 
 .card-content{
@@ -44,6 +45,7 @@ p{
     justify-content: center;
 }
 
+.go-back-btn,
 .btn button{
     padding: 0.5rem;
     background-color: black;
@@ -53,15 +55,17 @@ p{
     margin-bottom: 0rem;
     border-radius: 3px;
 }
+.go-back-btn button{
+    color: black;
+    background-color: #CE005B;
+}
 
 .btn button:hover{
     background-color: #CE005B;
     transform: scla(1.)
 }
 
-.go-back-btn
-.view-project-btn,
-.view-more{
+.btn{
     text-transform: uppercase;
     color: #4BCDDE;
     text-decoration: none;
@@ -72,4 +76,17 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .imgone-container img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+    }
 }

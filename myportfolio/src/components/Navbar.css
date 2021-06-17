@@ -42,7 +42,6 @@
 	.nav-links:hover,
 	.active {
 		color: black !important; 
-	
 	}
 
 	li {
@@ -55,11 +54,7 @@
     	display: inline-flex;
     	padding-top: 50px;
 	}
-
-	li .active {
-		color: #CE005B;
-	}
-
+	
 	.menu-list {
 		background:none;
 		text-decoration: none;
